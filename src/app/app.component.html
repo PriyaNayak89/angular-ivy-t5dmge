@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<body>
+  <div class="keyboard-wrapper">
+    <div *ngFor = "let key of keyBoardAlphaKey" ngClass = "key">
+    <button (click)="buttonClicked(key)"> {{key}}</button> </div>
+    <div *ngFor = "let key of keyBoardNumericalKey" ngClass = "key">
+    <button (click)="buttonClicked(key)"> {{key}}</button> </div>
+  </div>
+  <body>

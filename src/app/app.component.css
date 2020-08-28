@@ -1,0 +1,28 @@
+p {
+  font-family: Lato;
+}
+
+.keyboard-wrapper{
+  max-width: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: gray;
+}
+.key{
+    max-width: 3em;
+    width: 3em;
+    flex-wrap: wrap;
+}
+button{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    width: 3em;
+    height: 3em;
+    background: gray;
+    flex-wrap: wrap;
+    color: #FFF;
+
+}
